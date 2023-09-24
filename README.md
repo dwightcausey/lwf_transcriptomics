@@ -25,7 +25,7 @@ These scripts were completed on the Cedar cluster from Compute Canada.
       - *(Rune time = 02:15:39)*
   13. QC reports for each sample alignment were created with RSeQC using ```rseqc.sh```
       - *(Run time = ~2-12:00)*
-  15. MultiQC report was created for the alignments using the same ```multiqc_alignments.sh``` (which is the same script as ```multiqc_trimmed_reads.sh```, but located in a different directory). Report output in ```multiqc_report.html```.
+  15. MultiQC report was created for the alignments using the same ```multiqc_alignments.sh``` (which is the same script as ```multiqc_trimmed_reads.sh```, but located in a different directory). Report output in ```multiqc_report_alignments.html```.
       - *(Run time = ~00:30:00)*
 - Expression data was determined using HTSEQ using ```htseq.sh```
   - Split this script into smaller batch scripts to reduce wait time on Cedar Cluster   
